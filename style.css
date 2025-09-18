@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.first{
-    width: 500px;
-    height: 500px;
-    background-color: burlywood;
-    border: 1px solid black;
+nav{
+    background-color: blue;
+}
+div{
+    background-color: crimson;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 100px;
+    border: 6px dotted yellow;
+}
+h2{
+    color: pink;
 }
