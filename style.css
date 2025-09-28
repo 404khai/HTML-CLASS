@@ -2,15 +2,22 @@
     margin: 0;
     padding: 0;
 }
-nav{
-    background-color: blue;
+.one{
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
-div{
-    background-color: crimson;
-    border-top-left-radius: 4px;
-    border-bottom-right-radius: 100px;
-    border: 6px dotted yellow;
+.two{
+    width: 50%;
+    height: 200px;
+    background-color: palevioletred;
 }
-h2{
-    color: pink;
+.three{
+    width: 100px;
+    height: 200px;
+    background-color: indianred;
 }
