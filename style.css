@@ -2,7 +2,45 @@
     margin: 0;
     padding: 0;
 }
-.up, .bottom{
+nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logoBox{
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    width: 130px;
+    height: 100px;
+}
+.navLinks{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: coral; */
+    gap: 100px;
+    justify-content: space-around;
+}
+.navLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav  button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+/* .up, .bottom{
     width: 100%;
     height: 50%;
     display: flex;
@@ -35,4 +73,4 @@ p{
 }
 .five{
     background-color: rgb(114, 160, 95);
-}
+} */

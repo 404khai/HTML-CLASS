@@ -65,8 +65,8 @@ function solution(n, m, figures) {
 // Example run
 let grid1 = solution(4, 4, [D, B, A, C]);
 
-console.log("Final Grid with shape numbers:");
-console.log(grid1.map(r => JSON.stringify(r)).join("\n"));
+// console.log("Final Grid with shape numbers:");
+// console.log(grid1.map(r => JSON.stringify(r)).join("\n"));
 
 // Also print with 0s for empty spots
 console.log("\nGrid with 0s as empty:");
