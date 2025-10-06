@@ -9,6 +9,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.543);
+    position: sticky;
+    z-index: 100;
+    top: 0;
 }
 .logoBox{
     width: 25%;
@@ -40,6 +44,19 @@ nav  button{
     border-radius: 30px;
     border: none;
 }
+
+.mainBody{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+form{
+    background-color: peachpuff;
+    height: 300px;
+    width: 300px;
+}
+
 /* .up, .bottom{
     width: 100%;
     height: 50%;
